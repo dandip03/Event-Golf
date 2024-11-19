@@ -1,0 +1,32 @@
+/* About.css */
+.about {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #007e28;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .about h1 {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .about p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+  }
+  
+  /* Fade-in effect */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

@@ -1,0 +1,35 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  animation: fadeIn 1s ease-in-out;
+}
+
+h1, h2, h3 {
+  color: #333;
+  animation: slideInLeft 1s ease-out;
+}
+
+/* Fade-in effect for the whole body */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Slide in effect for headers */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

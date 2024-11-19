@@ -1,0 +1,85 @@
+/* Profile.css */
+.profile {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    background: linear-gradient(135deg, #007e28, #007e28); /* Elegant gradient background */
+    color: #fff; /* White text for contrast */
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .profile h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  
+  .profile p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .profile h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .profile-header {
+    margin-bottom: 20px;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Round the image */
+    border: 5px solid #fff; /* White border around the image */
+    object-fit: cover; /* Make sure the image fits well */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow around the image */
+  }
+  
+  .profile-info {
+    background-color: rgba(255, 255, 255, 0.2); /* Slight transparency */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  .profile-info p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .skills-list li {
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .skills-list li:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Highlight on hover */
+  }
+  
+  /* Adding a subtle hover effect to the profile container */
+  .profile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  

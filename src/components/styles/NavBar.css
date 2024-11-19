@@ -1,0 +1,59 @@
+/* NavBar.css */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #007e28, #007e28); /* Vibrant gradient background */
+  padding: 15px 30px;
+  border-radius: 8px; /* Rounded corners for a polished look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff; /* White text for contrast */
+  font-size: 1.8rem; /* Icon size, adjust as needed */
+  font-weight: 600;
+  margin: 0 20px;
+  padding: 8px 16px;
+  border-radius: 6px; /* Rounded corners for the links */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px; /* Icon width */
+  height: 50px; /* Icon height */
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Slight background change on hover */
+  color: #ff6347; /* Vibrant color on hover (tomato red) */
+  transform: scale(1.1); /* Slightly enlarge the link on hover */
+}
+
+.navbar .nav-link:first-child {
+  margin-left: 0;
+}
+
+.navbar .nav-link:last-child {
+  margin-right: 0;
+}
+
+.event-paling-rame {
+  font-weight: bold;
+  color: #ffffff; /* Example style */
+}
+
+/* Adjustments for smaller screens (responsive layout) */
+@media screen and (max-width: 767px) {
+  .navbar {
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .nav-link {
+    width: 50px; /* Smaller width for mobile */
+    height: 50px; /* Smaller height for mobile */
+    font-size: 1.6rem; /* Adjust font size on smaller screens */
+  }
+}

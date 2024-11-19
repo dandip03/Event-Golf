@@ -1,0 +1,90 @@
+/* EventDetail.css */
+.event-detail {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    background: linear-gradient(135deg, #007e28, #007e28); /* Vibrant gradient background */
+    padding: 40px 30px;
+    border-radius: 12px; /* Rounded corners for a soft, polished look */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15); /* Light shadow for depth */
+    max-width: 1000px;
+    margin: 40px auto;
+    color: #fff; /* White text for contrast */
+    text-align: center;
+  }
+  
+  .event-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .event-logo {
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 50%; /* Round the logo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow on the logo */
+  }
+  
+  .event-status {
+    font-size: 1.2rem;
+    color: #f4f4f9;
+    font-weight: 600;
+  }
+  
+  .event-info {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #f4f4f9;
+  }
+  
+  .event-info p {
+    margin: 10px 0;
+  }
+  
+  .event-info a {
+    color: #ffffff; /* Matching accent color for links */
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .event-info a:hover {
+    color: #d3d3d3; /* Darker accent color on hover */
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent background */
+    border-radius: 8px;
+  }
+  
+  table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #007e28;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1); /* Alternating row colors */
+  }
+  
+  table tr:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Highlight row on hover */
+  }
+  
